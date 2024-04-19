@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "aside main main"
+      "footer footer footer";
+  }
+
+  .o-header {
+    grid-area: header;
+  }
+  
+  .o-aside {
+    grid-area: aside;
+  }
+  
+  .o-main {
+    grid-area: main;
+  }
+  
+
+  .o-header {
+    background: #20e2b1;
+    color: #20e2b1;
+  }
+
+  .o-aside {
+    background: #dfee12;
+    color: #dfee12;
+  }
+
+  .o-main {
+    background: #002fff;
+    color: #002fff;
+  }
+
+  body {
+	grid-gap: 1rem;
+}
+
+body {
+    grid-template-columns: auto auto ;
+    grid-template-rows: 25vh 50vh ;
+  }
